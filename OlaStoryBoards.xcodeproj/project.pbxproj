@@ -19,6 +19,8 @@
 		24F209C5183BB07F00974C30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F209AD183BB07F00974C30 /* UIKit.framework */; };
 		24F209CD183BB07F00974C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24F209CB183BB07F00974C30 /* InfoPlist.strings */; };
 		24F209CF183BB07F00974C30 /* OlaStoryBoardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F209CE183BB07F00974C30 /* OlaStoryBoardsTests.m */; };
+		24F209D9183BB16900974C30 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F209D8183BB16900974C30 /* Storyboard.storyboard */; };
+		24F209E2183BF1A200974C30 /* DSMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F209E0183BF1A200974C30 /* DSMViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		24F209CA183BB07F00974C30 /* OlaStoryBoardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlaStoryBoardsTests-Info.plist"; sourceTree = "<group>"; };
 		24F209CC183BB07F00974C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24F209CE183BB07F00974C30 /* OlaStoryBoardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OlaStoryBoardsTests.m; sourceTree = "<group>"; };
+		24F209D8183BB16900974C30 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		24F209DF183BF1A200974C30 /* DSMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMViewController.h; sourceTree = "<group>"; };
+		24F209E0183BF1A200974C30 /* DSMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,8 @@
 		24F2099D183BB07F00974C30 = {
 			isa = PBXGroup;
 			children = (
+				24F209DF183BF1A200974C30 /* DSMViewController.h */,
+				24F209E0183BF1A200974C30 /* DSMViewController.m */,
 				24F209AF183BB07F00974C30 /* OlaStoryBoards */,
 				24F209C8183BB07F00974C30 /* OlaStoryBoardsTests */,
 				24F209A8183BB07F00974C30 /* Frameworks */,
@@ -111,6 +118,7 @@
 				24F209B9183BB07F00974C30 /* DSMAppDelegate.m */,
 				24F209BB183BB07F00974C30 /* Images.xcassets */,
 				24F209B0183BB07F00974C30 /* Supporting Files */,
+				24F209D8183BB16900974C30 /* Storyboard.storyboard */,
 			);
 			path = OlaStoryBoards;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 			files = (
 				24F209B4183BB07F00974C30 /* InfoPlist.strings in Resources */,
 				24F209BC183BB07F00974C30 /* Images.xcassets in Resources */,
+				24F209D9183BB16900974C30 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24F209B6183BB07F00974C30 /* main.m in Sources */,
+				24F209E2183BF1A200974C30 /* DSMViewController.m in Sources */,
 				24F209BA183BB07F00974C30 /* DSMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +452,7 @@
 				24F209D4183BB07F00974C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F209D5183BB07F00974C30 /* Build configuration list for PBXNativeTarget "OlaStoryBoardsTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +461,7 @@
 				24F209D7183BB07F00974C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
